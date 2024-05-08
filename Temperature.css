@@ -1,0 +1,47 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(216, 205, 205);
+    align-items: center;
+}
+h1{
+    color:blue;
+    margin: 20px;
+    
+}
+form{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    margin: auto;
+    margin-top: 50px;
+}
+#textBox{
+    font-size: 18px;
+    border: 2px black solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;   
+}
+button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: hwb(0 33% 0%);
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+        &:hover{
+            background-color: hwb(0 33% 10%);
+                }
+    }
+#answer{
+    font-size: 25px;
+}
